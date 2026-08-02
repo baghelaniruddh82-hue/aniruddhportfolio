@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <!-- ============================================================
+       SEO META TAGS
+  ============================================================ -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aniruddh — Freelance Discord Server Developer, Minecraft Website Developer & Gaming Thumbnail Designer. I build premium Discord communities, modern Minecraft websites and high-converting gaming thumbnails." />
+  <meta name="keywords" content="Discord server developer, Minecraft website developer, gaming thumbnail designer, freelance gaming developer, discord setup, minecraft store" />
+  <meta name="author" content="Aniruddh" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Social sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Aniruddh — Gaming Developer & Designer" />
+  <meta property="og:description" content="Premium Discord servers, Minecraft websites & gaming thumbnails. Available for freelance work." />
+  <meta property="og:site_name" content="Aniruddh Portfolio" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Aniruddh — Gaming Developer & Designer" />
+  <meta name="twitter:description" content="Premium Discord servers, Minecraft websites & gaming thumbnails." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Poppins typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Aniruddh — Gaming Developer & Designer</title>
+</head>
+
+<body>
+
+  <!-- ============================================================
+       LOADING SCREEN
+  ============================================================ -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-inner">
+      <div class="loader-logo">A</div>
+      <div class="loader-bar"><span></span></div>
+      <p class="loader-text">Loading premium experience</p>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       CURSOR GLOW (desktop only)
+  ============================================================ -->
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <!-- ============================================================
+       BACKGROUND FLOATING BLURRED SHAPES
+  ============================================================ -->
+  <div class="bg-shapes" aria-hidden="true">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+    <div class="shape shape-4"></div>
+  </div>
+
+  <!-- ============================================================
+       NAVBAR
+  ============================================================ -->
+  <header class="nav" id="nav">
+    <nav class="nav-inner container">
+      <a href="#home" class="brand">
+        <span class="brand-mark">A</span>
+        <span class="brand-text">Aniruddh<span class="brand-dot">.</span></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#process" class="nav-link">Process</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <!-- Dark mode toggle -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"></path>
+          </svg>
+        </button>
+
+        <!-- Mobile hamburger -->
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <!-- Left column -->
+      <div class="hero-content">
+        <span class="badge fade-up">
+          <span class="badge-pulse"></span>
+          Available For Freelance Work
+        </span>
+
+        <h1 class="hero-title fade-up">
+          ANIRUDDH
+        </h1>
+
+        <p class="hero-roles fade-up">
+          <span class="role">Discord Server Developer</span>
+          <span class="role-sep">/</span>
+          <span class="role">Minecraft Website Developer</span>
+          <span class="role-sep">/</span>
+          <span class="role">Gaming Thumbnail Designer</span>
+        </p>
+
+        <p class="hero-desc fade-up">
+          I build premium Discord communities, modern Minecraft websites and high-converting
+          gaming thumbnails for creators and server owners.
+        </p>
+
+        <div class="hero-cta fade-up">
+          <a href="#contact" class="btn btn-primary ripple">
+            Hire Me
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+          </a>
+          <a href="#portfolio" class="btn btn-ghost ripple">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M12 4l8 8-8 8"></path></svg>
+            View Portfolio
+          </a>
+        </div>
+
+        <!-- Number counters -->
+        <div class="hero-stats fade-up">
+          <div class="stat">
+            <span class="stat-num" data-count="50">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="30">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num" data-count="3">0</span>
+            <span class="stat-label">Services</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right column : floating illustration -->
+      <div class="hero-visual fade-up">
+        <div class="float-wrap">
+          <!-- Glass Discord UI mockup -->
+          <div class="discord-mock">
+            <div class="dm-bar">
+              <div class="dm-dot red"></div>
+              <div class="dm-dot yellow"></div>
+              <div class="dm-dot green"></div>
+            </div>
+            <div class="dm-body">
+              <div class="dm-server">
+                <div class="dm-sicon">N</div>
+                <div class="dm-sicon">G</div>
+                <div class="dm-sicon">⚔</div>
+                <div class="dm-sicon">🎮</div>
+                <div class="dm-sicon active">+</div>
+              </div>
+              <div class="dm-chat">
+                <div class="dm-ch-head">
+                  <span class="dm-hash">#</span> premium-server
+                  <span class="dm-members">● 1,240</span>
+                </div>
+                <div class="dm-msg">
+                  <div class="dm-avatar" style="--a:1"></div>
+                  <div class="dm-msg-body">
+                    <div class="dm-msg-name">Admin <span class="dm-bot">BOT</span></div>
+                    <div class="dm-msg-line w80"></div>
+                    <div class="dm-msg-line w50"></div>
+                  </div>
+                </div>
+                <div class="dm-msg">
+                  <div class="dm-avatar" style="--a:2"></div>
+                  <div class="dm-msg-body">
+                    <div class="dm-msg-name">Player</div>
+                    <div class="dm-msg-line w70"></div>
+                    <div class="dm-msg-line w40"></div>
+                  </div>
+                </div>
+                <div class="dm-input">
+                  <span>Message #premium-server</span>
+                </div>
+              </div>
+            </div>
+            <div class="dm-ticket glass-chip">
+              <span>🎫</span> Ticket System &nbsp;•&nbsp; Online
+            </div>
+          </div>
+
+          <!-- Floating Minecraft block (isometric) -->
+          <div class="mc-block mc-block-1">
+            <div class="face top"></div>
+            <div class="face left"></div>
+            <div class="face right"></div>
+          </div>
+          <div class="mc-block mc-block-2">
+            <div class="face top"></div>
+            <div class="face left"></div>
+            <div class="face right"></div>
+          </div>
+
+          <!-- Floating badges -->
+          <div class="float-chip chip-1 glass-chip">⚡ Premium Setup</div>
+          <div class="float-chip chip-2 glass-chip">🎨 Brand Design</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll hint -->
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">
+      <span class="mouse"><span class="wheel"></span></span>
+    </a>
+  </section>
+
+  <!-- ============================================================
+       ABOUT
+  ============================================================ -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Who <span class="grad-text">Am I?</span></h2>
+        <p class="section-sub">
+          A freelance developer focused on premium gaming communities.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card glass-card fade-up">
+          <div class="about-icon">🧱</div>
+          <h3>Discord & Minecraft</h3>
+          <p>
+            I'm a freelance developer focused on creating premium gaming communities.
+          </p>
+        </div>
+        <div class="about-card glass-card fade-up" style="transition-delay:.1s">
+          <div class="about-icon">🛠️</div>
+          <h3>Specialized Skills</h3>
+          <p>
+            I specialize in Discord server setup, Minecraft websites and modern gaming branding.
+          </p>
+        </div>
+        <div class="about-card glass-card fade-up" style="transition-delay:.2s">
+          <div class="about-icon">✨</div>
+          <h3>Premium Quality</h3>
+          <p>
+            Every project is designed with performance, clean UI and professional quality.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SERVICES
+  ============================================================ -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">What I Do</span>
+        <h2 class="section-title">My <span class="grad-text">Services</span></h2>
+        <p class="section-sub">Premium solutions that make your community stand out.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Discord Server Setup -->
+        <div class="service-card fade-up">
+          <div class="service-icon"><span>🎧</span></div>
+          <h3>Discord Server Setup</h3>
+          <ul class="service-list">
+            <li>✔ Roles</li>
+            <li>✔ Permissions</li>
+            <li>✔ Ticket System</li>
+            <li>✔ Verification</li>
+            <li>✔ Welcome</li>
+            <li>✔ Economy Bots</li>
+            <li>✔ Reaction Roles</li>
+            <li>✔ Security</li>
+          </ul>
+        </div>
+
+        <!-- Minecraft Website -->
+        <div class="service-card featured fade-up" style="transition-delay:.1s">
+          <div class="service-icon"><span>⛏️</span></div>
+          <h3>Minecraft Website</h3>
+          <ul class="service-list">
+            <li>✔ Landing Page</li>
+            <li>✔ Store</li>
+            <li>✔ Staff</li>
+            <li>✔ Vote Page</li>
+            <li>✔ Rules</li>
+            <li>✔ FAQ</li>
+            <li>✔ Responsive</li>
+          </ul>
+        </div>
+
+        <!-- Gaming Thumbnail -->
+        <div class="service-card fade-up" style="transition-delay:.2s">
+          <div class="service-icon"><span>🖼️</span></div>
+          <h3>Gaming Thumbnail</h3>
+          <ul class="service-list">
+            <li>✔ Minecraft</li>
+            <li>✔ Free Fire</li>
+            <li>✔ Valorant</li>
+            <li>✔ YouTube</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PORTFOLIO
+  ============================================================ -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Recent Work</span>
+        <h2 class="section-title">My <span class="grad-text">Portfolio</span></h2>
+        <p class="section-sub">Beautiful, production-ready designs I've crafted.</p>
+      </div>
+
+      <div class="portfolio-grid">
+        <!-- Nether Community Website -->
+        <article class="work-card fade-up">
+          <div class="work-media">
+            <iframe
+              src="https://nethercommunity.vercel.app/"
+              title="Nether Community Website live preview"
+              loading="lazy"
+              referrerpolicy="no-referrer"
+              sandbox="allow-scripts allow-same-origin allow-forms allow-popups"
+            ></iframe>
+            <a class="work-overlay" href="https://nethercommunity.vercel.app/" target="_blank" rel="noopener">
+              <span class="work-zoom">🔍 View</span>
+            </a>
+          </div>
+          <div class="work-info">
+            <div class="work-meta">
+              <h3>Nether Community Website</h3>
+              <p class="work-desc">A premium responsive Minecraft community website featuring modern UI, animations and Discord integration.</p>
+            </div>
+            <span class="work-tag">Minecraft Community Website</span>
+          </div>
+        </article>
+
+        <!-- KryonMC Live Logo -->
+        <article class="work-card fade-up" style="transition-delay:.1s">
+          <div class="work-media">
+            <img src="images/kryonmc-live-logo.png" alt="KryonMC Live Logo" loading="lazy" decoding="async" />
+            <a class="work-overlay" href="images/kryonmc-live-logo.png" target="_blank" rel="noopener">
+              <span class="work-zoom">🔍 View</span>
+            </a>
+          </div>
+          <div class="work-info">
+            <div class="work-meta">
+              <h3>KryonMC Live Logo</h3>
+              <p class="work-desc">A modern gaming logo created for the KryonMC Minecraft server.</p>
+            </div>
+            <span class="work-tag">Logo Design</span>
+          </div>
+        </article>
+
+        <!-- PvP Live Thumbnail -->
+        <article class="work-card fade-up" style="transition-delay:.2s">
+          <div class="work-media">
+            <img src="images/pvp-live-thumbnail.png" alt="PvP Live Thumbnail" loading="lazy" decoding="async" />
+            <a class="work-overlay" href="images/pvp-live-thumbnail.png" target="_blank" rel="noopener">
+              <span class="work-zoom">🔍 View</span>
+            </a>
+          </div>
+          <div class="work-info">
+            <div class="work-meta">
+              <h3>PvP Live Thumbnail</h3>
+              <p class="work-desc">Gaming thumbnail designed for Minecraft PvP content.</p>
+            </div>
+            <span class="work-tag">YouTube Thumbnail</span>
+          </div>
+        </article>
+
+        <!-- Happy Customer -->
+        <article class="work-card fade-up">
+          <div class="work-media">
+            <img src="images/happy-customer-1.png" alt="Happy Customer review screenshot" loading="lazy" decoding="async" />
+            <a class="work-overlay" href="images/happy-customer-1.png" target="_blank" rel="noopener">
+              <span class="work-zoom">🔍 View</span>
+            </a>
+          </div>
+          <div class="work-info">
+            <div class="work-meta">
+              <h3>Happy Customer</h3>
+              <p class="work-desc">Displayed as a client testimonial / project preview.</p>
+            </div>
+            <span class="work-tag">Client Review</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY CHOOSE ME
+  ============================================================ -->
+  <section id="why" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Why Me</span>
+        <h2 class="section-title">Why <span class="grad-text">Choose Me?</span></h2>
+        <p class="section-sub">Reliable, fast and obsessed with quality.</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card fade-up">
+          <div class="why-icon">⚡</div><h3>Fast Delivery</h3>
+          <p>Quick turnaround without cutting corners.</p>
+        </div>
+        <div class="why-card fade-up" style="transition-delay:.05s">
+          <div class="why-icon">💰</div><h3>Affordable Pricing</h3>
+          <p>Premium quality at honest, fair rates.</p>
+        </div>
+        <div class="why-card fade-up" style="transition-delay:.1s">
+          <div class="why-icon">💎</div><h3>Premium Design</h3>
+          <p>Modern, polished, memorable aesthetics.</p>
+        </div>
+        <div class="why-card fade-up" style="transition-delay:.15s">
+          <div class="why-icon">📱</div><h3>Responsive Layout</h3>
+          <p>Flawless on mobile, tablet and desktop.</p>
+        </div>
+        <div class="why-card fade-up" style="transition-delay:.2s">
+          <div class="why-icon">🤝</div><h3>Friendly Support</h3>
+          <p>Clear communication at every step.</p>
+        </div>
+        <div class="why-card fade-up" style="transition-delay:.25s">
+          <div class="why-icon">🧹</div><h3>Clean Code</h3>
+          <p>Organized, maintainable, performance-first code.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROCESS
+  ============================================================ -->
+  <section id="process" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">How It Works</span>
+        <h2 class="section-title">The <span class="grad-text">Process</span></h2>
+        <p class="section-sub">A simple 4-step journey from idea to delivery.</p>
+      </div>
+
+      <div class="process-track">
+        <div class="process-line" id="processLine"></div>
+
+        <div class="process-step fade-up">
+          <div class="step-num">1</div>
+          <div class="step-icon">💬</div>
+          <h3>Contact Me</h3>
+          <p>DM me on Discord and share your idea.</p>
+        </div>
+        <div class="process-step fade-up" style="transition-delay:.1s">
+          <div class="step-num">2</div>
+          <div class="step-icon">📋</div>
+          <h3>Discuss Project</h3>
+          <p>We plan the scope, style and timeline.</p>
+        </div>
+        <div class="process-step fade-up" style="transition-delay:.2s">
+          <div class="step-num">3</div>
+          <div class="step-icon">🛠️</div>
+          <h3>Development</h3>
+          <p>I build with premium quality & clean UI.</p>
+        </div>
+        <div class="process-step fade-up" style="transition-delay:.3s">
+          <div class="step-num">4</div>
+          <div class="step-icon">🚀</div>
+          <h3>Delivery</h3>
+          <p>You receive a polished, ready-to-use product.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS (placeholder cards)
+  ============================================================ -->
+  <section id="testimonials" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Testimonials</span>
+        <h2 class="section-title">Client <span class="grad-text">Love</span></h2>
+        <p class="section-sub">What clients are saying about working with me.</p>
+      </div>
+
+      <div class="testi-grid">
+        <div class="testi-card glass-card fade-up">
+          <div class="stars" aria-label="5 star rating">★★★★★</div>
+          <p class="testi-text">"This area is reserved for future client reviews."</p>
+          <div class="testi-foot">
+            <div class="testi-avatar">?</div>
+            <span class="testi-name">Your Review Here</span>
+          </div>
+        </div>
+        <div class="testi-card glass-card fade-up" style="transition-delay:.1s">
+          <div class="stars" aria-label="5 star rating">★★★★★</div>
+          <p class="testi-text">"This area is reserved for future client reviews."</p>
+          <div class="testi-foot">
+            <div class="testi-avatar">?</div>
+            <span class="testi-name">Your Review Here</span>
+          </div>
+        </div>
+        <div class="testi-card glass-card fade-up" style="transition-delay:.2s">
+          <div class="stars" aria-label="5 star rating">★★★★★</div>
+          <p class="testi-text">"This area is reserved for future client reviews."</p>
+          <div class="testi-foot">
+            <div class="testi-avatar">?</div>
+            <span class="testi-name">Your Review Here</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT
+  ============================================================ -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Let's <span class="grad-text">Work Together</span></h2>
+        <p class="section-sub">For orders please DM me on Discord.</p>
+      </div>
+
+      <div class="contact-card glass-card fade-up">
+        <div class="contact-main">
+          <div class="contact-icon">💬</div>
+          <h3>Main Contact</h3>
+          <p class="contact-label">Discord</p>
+          <a class="contact-value" href="https://discord.com/users/netherforgeyt" target="_blank" rel="noopener">netherforgeyt</a>
+          <p class="contact-note">For orders please DM me on Discord.</p>
+        </div>
+
+        <div class="contact-divider"></div>
+
+        <div class="contact-secondary">
+          <div class="contact-icon">📧</div>
+          <h3>Email</h3>
+          <p class="contact-label">Secondary Contact</p>
+          <a class="contact-value" href="mailto:baghelaniruddh82@gmail.com">baghelaniruddh82@gmail.com</a>
+          <p class="contact-note">Prefer Discord for fastest response.</p>
+        </div>
+      </div>
+
+      <div class="contact-cta fade-up">
+        <a href="https://discord.com/users/netherforgeyt" target="_blank" rel="noopener" class="btn btn-primary ripple">
+          Message on Discord
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        </a>
+        <a href="mailto:baghelaniruddh82@gmail.com" class="btn btn-ghost ripple">
+          Send Email
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v14H4z"></path><path d="m4 7 8 6 8-6"></path></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <a href="#home" class="brand footer-brand">
+        <span class="brand-mark">A</span>
+        <span class="brand-text">Aniruddh<span class="brand-dot">.</span></span>
+      </a>
+      <p class="footer-text">Built for Gaming Communities.</p>
+      <p class="footer-copy">© 2026 Aniruddh</p>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       SCRIPTS
+  ============================================================ -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
